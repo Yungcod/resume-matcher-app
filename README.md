@@ -1,18 +1,18 @@
 # Resume & Job Matcher
 
-A simple tool to compare your resume against job descriptions using DeepSeek AI.
+A tool to compare resumes against job descriptions using text analysis.
 
-## About This Project
+## Project Overview
 
-I created this app as part of my Python programming coursework. It uses AI to analyze resumes against job descriptions to help job seekers improve their applications.
+This application was developed as part of a programming course project. It analyzes resumes against job descriptions to provide matching feedback.
 
 ## Features
 
 - Resume and job description comparison
-- Match percentage score
-- Missing keyword identification
-- Resume improvement suggestions
-- Clean and intuitive interface
+- Match percentage calculation
+- Keyword analysis
+- Improvement suggestions
+- Simple user interface
 
 ## Project Structure
 
@@ -28,38 +28,31 @@ I created this app as part of my Python programming coursework. It uses AI to an
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your DeepSeek API key:
+3. Set up your API key:
    - Create or edit the `.streamlit/secrets.toml` file
    - Add the line `DEEPSEEK_API_KEY = "your-api-key"`
 
-## Running the App
+## Running the Application
 
 ```bash
 streamlit run app.py
 ```
 
-## How to Use
+## Usage Instructions
 
-1. Paste a job description in the left field
-2. Paste your resume in the right field
+1. Enter job description in the left field
+2. Enter resume in the right field
 3. Click "Analyze Match"
 4. Review the analysis and suggestions
-
-## What I Learned
-
-Building this project helped me understand:
-- Making API calls with proper error handling
-- Using regular expressions for text analysis
-- Building user interfaces with Streamlit
-- Working with AI language models
 
 ## Requirements
 
 - Python 3.7+
 - Streamlit
 - Requests
-- DeepSeek API key
+- API key (external text analysis service)
 
-## Note
+## Notes
 
-Keep your API key secure and never share it publicly. 
+- This is a course project and may have limitations
+- Keep your API key secure 
