@@ -6,6 +6,13 @@ A tool to compare resumes against job descriptions using text analysis.
 
 This application was developed as part of a programming course project. It analyzes resumes against job descriptions to provide matching feedback.
 
+## Screenshot 
+![image](https://github.com/user-attachments/assets/5d5bda3b-9c43-4a35-902e-1cf6171d6cdf)
+
+
+
+
+
 ## Features
 
 - Resume and job description comparison
